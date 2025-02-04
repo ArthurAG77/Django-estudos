@@ -18,13 +18,13 @@ O primeiro passo para começar um projeto em Django é configurar o ambiente de 
 
 #### 1. Configurando o Ambiente Virtual
 Antes de instalar o Django, é recomendável criar e ativar um ambiente virtual para isolar as dependências do projeto.
-- **Criando o ambiente virtual:**
+- **Criando o ambiente virtual:**<br>
  `python -m venv meu_ambiente_virtual`
  - - -
-- **Ativando o ambiente virtual**
- No Windows
- `meu_ambiente_virtual\Scripts\activate.bat`
- No Linux/MacOS
+- **Ativando o ambiente virtual**<br>
+ No Windows<br>
+ `meu_ambiente_virtual\Scripts\activate.bat`<br>
+ No Linux/MacOS<br>
  `source meu_ambiente_virtual\bin\activate`
  - - -
  ####  2. Instalando o Django 
@@ -36,5 +36,7 @@ Antes de instalar o Django, é recomendável criar e ativar um ambiente virtual 
  
  isso criará a estrutura base de diretórios e arquivos de um projeto
  #### 4. Criando Apps dentro de um projeto
+
  Dentro de um projeto você pode criar apps<br>
+
  `python manage.py startapp nome_do_app`
