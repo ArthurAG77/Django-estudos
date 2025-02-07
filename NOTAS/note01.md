@@ -24,4 +24,5 @@ Ex: em um sistema de homologação de fornecedores, haverá um app responsavel p
 Apps são divisões logicas de funções dentro de um sistema web<br>
 
 **para criar uma app execute**
-`manage.py startapp nome_do_app`
+`manage.py startapp nome_do_app`<br>
+Após criar um app devemos indicar ao django a existencia do mesmo para que ele o execute, então vamos até os arquivos de configuração do nosso projeto django em **settings.py** e devemos adicionar na lista **INSTALLED_APPS** o nome do nosso APP
