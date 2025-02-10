@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'pt-br' # Troque a lingua do seu django -> Afeta django admin 
  
-TIME_ZONE = 'America/Sao_Paulo' # Trocando a timezone
+TIME_ZONE = 'America/Sao_Paulo' # Trocando a timezoneg
 
 USE_I18N = True
 
